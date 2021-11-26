@@ -1,0 +1,27 @@
+
+
+
+-- Inserindo os valores na minha tabela 
+
+insert into tb_produtos (nome, marca, preco, ativo) values ("Celular", "Apple", 4000.00, true); 
+insert into tb_produtos (nome, marca, preco, ativo) values ("Celular", "Motorola", 2000.00, true);
+insert into tb_produtos (nome, marca, preco, ativo) values("televisão", "Samsung", 10000.00, true);
+insert into tb_produtos (nome, marca, preco, ativo) values("Computador","Razer", 7000.00, true);
+insert into tb_produtos (nome, marca, preco, ativo) values("notebook","Intel", 5000.00, true);
+insert into tb_produtos (nome, marca, preco, ativo) values("Cadeira gamer", "Zezão", 499.00, true);
+insert into tb_produtos (nome, marca, preco, ativo) values("monitor", "Asus", 300.00, true);
+insert into tb_produtos (nome, marca, preco, ativo) values("Aparelho de som", "JBL", 3500.00, true);
+
+-- Selecionando os produtos com valor maior que 500
+select * from tb_produtos where preco > 500;
+
+-- Selecionando os produtos com valor menor que 500;
+select * from tb_produtos where preco < 500;
+
+-- Atualizando a minha tabela 
+update tb_produtos set preco = 100
+where id - 8
+        
+
+
+
